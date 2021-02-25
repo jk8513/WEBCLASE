@@ -1,0 +1,29 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: brown;
+}
+
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    width: 230px;
+}
+
+form {
+    position:static ;
+    z-index: 1;
+    max-width: 500px;
+    margin: 0 auto 100px;
+    padding: 20px;
+}
+
+.boton{
+    width: 30%;
+    background: #FFBE7A;
+    opacity: 0.6;
+}
+
+input{
+    width:200px;
+}
