@@ -27,3 +27,13 @@ form {
 input{
     width:200px;
 }
+
+fieldset{
+    background: white;
+}
+
+body{
+    background: url(6594.png) no-repeat center center fixed;
+    font-size: 20px;
+	margin-top: 80px;
+}

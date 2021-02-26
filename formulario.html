@@ -10,23 +10,23 @@
 <body>
     <h1>FORMULARIO CLASE WEB</h1>
 
-    <form action="" method="post">
+    <form  method="post">
         <fieldset>
             <label>Nombres y Apellidos:</label>
-            <input type="text" required="required"><br><br>
+            <input type="text" required><br><br>
             <label>Teléfono:</label> 
-            <input type="tel"><br><br>
+            <input type="tel" required><br><br>
             <label>Dirección:</label> 
             <input type="text"> <br><br>
             <label>Fecha de Nacimiento:</label> 
-            <input type="date" name="" id=""><br><br>
+            <input type="date" required><br><br>
             <label>E_mail:</label> 
-            <input type="email"><br><br>
+            <input type="email" required><br><br>
             <label>Contraseña:</label>
-            <input type="password"><br><br>
+            <input type="password" name="contraseña" required  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Debe contener al menos un número y una letra minúscula y mayúscula, y al menos 8 o más caracteres"><br><br>
             <label>Confirme su Contraseña:</label>
-            <input type="password"><br><br>
-            <input type="button" value="Enviar" class="boton">
+            <input type="password" name="contraseñaconfir" required><br><br>
+            <input type="submit" value="Enviar" class="boton" onclick="javascript:verifica();">
         </fieldset>
     </form>
 </body>
